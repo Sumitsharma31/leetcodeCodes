@@ -15,7 +15,7 @@ function toSumFunc(nums, target) {
     for (let j = 0; j <= nums.length - 1; j++) {
       // console.log(i, j);
       if (nums[i] + nums[j] == target && i != j) {
-        console.log(i, j);
+        // console.log(i, j);
 
         return [i, j];
 
